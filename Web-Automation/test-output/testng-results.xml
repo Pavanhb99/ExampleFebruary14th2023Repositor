@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-30T15:20:45 IST" name="Default suite" finished-at="2022-06-30T15:21:39 IST" duration-ms="53665">
+    <groups>
+    </groups>
+    <test started-at="2022-06-30T15:20:45 IST" name="Default test" finished-at="2022-06-30T15:21:39 IST" duration-ms="53665">
+      <class name="com.DataProviderAdvance.Advance1">
+        <test-method signature="launchbrowser()[pri:1, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:20:45 IST" name="launchbrowser" finished-at="2022-06-30T15:20:48 IST" duration-ms="3127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:20:48 IST" name="navigate" finished-at="2022-06-30T15:20:51 IST" duration-ms="2337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login1()[pri:3, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:20:51 IST" name="login1" finished-at="2022-06-30T15:20:56 IST" duration-ms="5615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method signature="minimizewindow()[pri:4, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:20:56 IST" name="minimizewindow" finished-at="2022-06-30T15:20:58 IST" duration-ms="1749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizewindow -->
+        <test-method signature="createuser1()[pri:5, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:20:58 IST" name="createuser1" finished-at="2022-06-30T15:21:11 IST" duration-ms="13291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser1 -->
+        <test-method signature="createuser2()[pri:6, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:11 IST" name="createuser2" finished-at="2022-06-30T15:21:13 IST" duration-ms="1277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser2 -->
+        <test-method signature="createuser3()[pri:7, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:13 IST" name="createuser3" finished-at="2022-06-30T15:21:14 IST" duration-ms="1070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser3 -->
+        <test-method signature="logout1()[pri:8, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:14 IST" name="logout1" finished-at="2022-06-30T15:21:15 IST" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout1 -->
+        <test-method signature="Loginuser1()[pri:9, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:15 IST" name="Loginuser1" finished-at="2022-06-30T15:21:16 IST" duration-ms="1269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginuser1 -->
+        <test-method signature="logoutuser1()[pri:10, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:16 IST" name="logoutuser1" finished-at="2022-06-30T15:21:17 IST" duration-ms="1129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser1 -->
+        <test-method signature="Loginuser2()[pri:11, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:17 IST" name="Loginuser2" finished-at="2022-06-30T15:21:18 IST" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginuser2 -->
+        <test-method signature="logoutuser2()[pri:12, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:19 IST" name="logoutuser2" finished-at="2022-06-30T15:21:20 IST" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser2 -->
+        <test-method signature="Loginuser3()[pri:13, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:20 IST" name="Loginuser3" finished-at="2022-06-30T15:21:21 IST" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginuser3 -->
+        <test-method signature="logoutuser3()[pri:14, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:21 IST" name="logoutuser3" finished-at="2022-06-30T15:21:22 IST" duration-ms="1135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser3 -->
+        <test-method signature="modifyuser1()[pri:15, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:22 IST" name="modifyuser1" finished-at="2022-06-30T15:21:23 IST" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyuser1 -->
+        <test-method signature="modifyuser2()[pri:16, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:23 IST" name="modifyuser2" finished-at="2022-06-30T15:21:24 IST" duration-ms="1162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyuser2 -->
+        <test-method signature="modifyuser3()[pri:17, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:24 IST" name="modifyuser3" finished-at="2022-06-30T15:21:25 IST" duration-ms="1120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyuser3 -->
+        <test-method signature="logout2()[pri:18, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:25 IST" name="logout2" finished-at="2022-06-30T15:21:27 IST" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout2 -->
+        <test-method signature="Loginuser11()[pri:19, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:27 IST" name="Loginuser11" finished-at="2022-06-30T15:21:28 IST" duration-ms="1170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginuser11 -->
+        <test-method signature="logoutuser11()[pri:20, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:28 IST" name="logoutuser11" finished-at="2022-06-30T15:21:29 IST" duration-ms="1101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser11 -->
+        <test-method signature="Loginuser22()[pri:21, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:29 IST" name="Loginuser22" finished-at="2022-06-30T15:21:30 IST" duration-ms="1168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginuser22 -->
+        <test-method signature="logoutuser22()[pri:22, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:30 IST" name="logoutuser22" finished-at="2022-06-30T15:21:31 IST" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser22 -->
+        <test-method signature="Loginuser33()[pri:23, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:31 IST" name="Loginuser33" finished-at="2022-06-30T15:21:32 IST" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginuser33 -->
+        <test-method signature="logoutuser33()[pri:24, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:32 IST" name="logoutuser33" finished-at="2022-06-30T15:21:34 IST" duration-ms="1172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutuser33 -->
+        <test-method signature="login()[pri:25, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:34 IST" name="login" finished-at="2022-06-30T15:21:34 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Deleteuser1()[pri:26, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:34 IST" name="Deleteuser1" finished-at="2022-06-30T15:21:35 IST" duration-ms="1099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deleteuser1 -->
+        <test-method signature="Deleteuser2()[pri:27, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:35 IST" name="Deleteuser2" finished-at="2022-06-30T15:21:36 IST" duration-ms="1154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deleteuser2 -->
+        <test-method signature="Deleteuser3()[pri:28, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:36 IST" name="Deleteuser3" finished-at="2022-06-30T15:21:37 IST" duration-ms="1163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deleteuser3 -->
+        <test-method signature="logout3()[pri:29, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:37 IST" name="logout3" finished-at="2022-06-30T15:21:38 IST" duration-ms="1110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout3 -->
+        <test-method signature="closeapplication()[pri:30, instance:com.DataProviderAdvance.Advance1@76c3e77a]" started-at="2022-06-30T15:21:38 IST" name="closeapplication" finished-at="2022-06-30T15:21:39 IST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapplication -->
+      </class> <!-- com.DataProviderAdvance.Advance1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

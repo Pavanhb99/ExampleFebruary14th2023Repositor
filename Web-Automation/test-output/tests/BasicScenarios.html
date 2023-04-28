@@ -1,0 +1,419 @@
+<html>
+<head>
+<title>TestNG:  BasicScenarios</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BasicScenarios</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>68/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 10 19:01:14 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>237 seconds (237330 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.DataProviderbasic.agss1.deleteuser()'><b>deleteuser</b><br>Test class: com.DataProviderbasic.agss1</td>
+<td></td>
+<td>4</td>
+<td>com.DataProviderbasic.agss1@5562c41e</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss6.minimizewindow()'><b>minimizewindow</b><br>Test class: com.DataProviderbasic.agss6</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss6@618425b5</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss6.logout()'><b>logout</b><br>Test class: com.DataProviderbasic.agss6</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss6@618425b5</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss4.login()'><b>login</b><br>Test class: com.DataProviderbasic.agss4<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.DataProviderbasic.agss4@1af2d44a</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss5.logout()'><b>logout</b><br>Test class: com.DataProviderbasic.agss5</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss5@18d87d80</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss4.navigate()'><b>navigate</b><br>Test class: com.DataProviderbasic.agss4</td>
+<td></td>
+<td>3</td>
+<td>com.DataProviderbasic.agss4@1af2d44a</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss3.createcustomer()'><b>createcustomer</b><br>Test class: com.DataProviderbasic.agss3<br>Parameters: pavan</td>
+<td></td>
+<td>9</td>
+<td>com.DataProviderbasic.agss3@1e04fa0a</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss6.createcustomer()'><b>createcustomer</b><br>Test class: com.DataProviderbasic.agss6<br>Parameters: pavan1</td>
+<td></td>
+<td>6</td>
+<td>com.DataProviderbasic.agss6@618425b5</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss6.modifyproject()'><b>modifyproject</b><br>Test class: com.DataProviderbasic.agss6<br>Parameters: project2</td>
+<td></td>
+<td>9</td>
+<td>com.DataProviderbasic.agss6@618425b5</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss6.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.DataProviderbasic.agss6</td>
+<td></td>
+<td>1</td>
+<td>com.DataProviderbasic.agss6@618425b5</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss4.closeapp()'><b>closeapp</b><br>Test class: com.DataProviderbasic.agss4</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss4@1af2d44a</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss5.login()'><b>login</b><br>Test class: com.DataProviderbasic.agss5<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.DataProviderbasic.agss5@18d87d80</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss4.logout()'><b>logout</b><br>Test class: com.DataProviderbasic.agss4</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss4@1af2d44a</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss3.closeapp()'><b>closeapp</b><br>Test class: com.DataProviderbasic.agss3</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss3@1e04fa0a</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss1.closeAplication()'><b>closeAplication</b><br>Test class: com.DataProviderbasic.agss1</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss1@5562c41e</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss1.minimizewindow()'><b>minimizewindow</b><br>Test class: com.DataProviderbasic.agss1</td>
+<td></td>
+<td>2</td>
+<td>com.DataProviderbasic.agss1@5562c41e</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss6.createproject()'><b>createproject</b><br>Test class: com.DataProviderbasic.agss6<br>Parameters: project1</td>
+<td></td>
+<td>4</td>
+<td>com.DataProviderbasic.agss6@618425b5</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss6.deleteproject()'><b>deleteproject</b><br>Test class: com.DataProviderbasic.agss6</td>
+<td></td>
+<td>8</td>
+<td>com.DataProviderbasic.agss6@618425b5</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss6.login()'><b>login</b><br>Test class: com.DataProviderbasic.agss6<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.DataProviderbasic.agss6@618425b5</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss2.minimizewindow()'><b>minimizewindow</b><br>Test class: com.DataProviderbasic.agss2</td>
+<td></td>
+<td>1</td>
+<td>com.DataProviderbasic.agss2@66d3eec0</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss6.closeapp()'><b>closeapp</b><br>Test class: com.DataProviderbasic.agss6</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss6@618425b5</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss5.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.DataProviderbasic.agss5</td>
+<td></td>
+<td>1</td>
+<td>com.DataProviderbasic.agss5@18d87d80</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss5.createcustomer()'><b>createcustomer</b><br>Test class: com.DataProviderbasic.agss5<br>Parameters: pavan1</td>
+<td></td>
+<td>6</td>
+<td>com.DataProviderbasic.agss5@18d87d80</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss7.minimizewindow()'><b>minimizewindow</b><br>Test class: com.DataProviderbasic.agss7</td>
+<td></td>
+<td>1</td>
+<td>com.DataProviderbasic.agss7@58695725</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss7.createcustomer()'><b>createcustomer</b><br>Test class: com.DataProviderbasic.agss7<br>Parameters: pavan1</td>
+<td></td>
+<td>1</td>
+<td>com.DataProviderbasic.agss7@58695725</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss5.closeapp()'><b>closeapp</b><br>Test class: com.DataProviderbasic.agss5</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss5@18d87d80</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss6.navigate()'><b>navigate</b><br>Test class: com.DataProviderbasic.agss6</td>
+<td></td>
+<td>1</td>
+<td>com.DataProviderbasic.agss6@618425b5</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss2.createuser()'><b>createuser</b><br>Test class: com.DataProviderbasic.agss2<br>Parameters: user2, user2, user1@gmail.com, pavan, user1, user1</td>
+<td></td>
+<td>17</td>
+<td>com.DataProviderbasic.agss2@66d3eec0</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss2.login()'><b>login</b><br>Test class: com.DataProviderbasic.agss2<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.DataProviderbasic.agss2@66d3eec0</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss7.createtask()'><b>createtask</b><br>Test class: com.DataProviderbasic.agss7<br>Parameters: task1</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss7@58695725</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss3.login()'><b>login</b><br>Test class: com.DataProviderbasic.agss3<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.DataProviderbasic.agss3@1e04fa0a</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss3.deletecustomer()'><b>deletecustomer</b><br>Test class: com.DataProviderbasic.agss3</td>
+<td></td>
+<td>4</td>
+<td>com.DataProviderbasic.agss3@1e04fa0a</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss5.deleteproject()'><b>deleteproject</b><br>Test class: com.DataProviderbasic.agss5</td>
+<td></td>
+<td>8</td>
+<td>com.DataProviderbasic.agss5@18d87d80</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss7.deleteproject()'><b>deleteproject</b><br>Test class: com.DataProviderbasic.agss7</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss7@58695725</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss7.deletetask()'><b>deletetask</b><br>Test class: com.DataProviderbasic.agss7</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss7@58695725</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss4.modifycustomer()'><b>modifycustomer</b><br>Test class: com.DataProviderbasic.agss4<br>Parameters: pavan2</td>
+<td></td>
+<td>5</td>
+<td>com.DataProviderbasic.agss4@1af2d44a</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss4.launch()'><b>launch</b><br>Test class: com.DataProviderbasic.agss4</td>
+<td></td>
+<td>1</td>
+<td>com.DataProviderbasic.agss4@1af2d44a</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss6.deletecustomer()'><b>deletecustomer</b><br>Test class: com.DataProviderbasic.agss6</td>
+<td></td>
+<td>3</td>
+<td>com.DataProviderbasic.agss6@618425b5</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss4.createcustomer()'><b>createcustomer</b><br>Test class: com.DataProviderbasic.agss4<br>Parameters: pavan1</td>
+<td></td>
+<td>8</td>
+<td>com.DataProviderbasic.agss4@1af2d44a</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss3.launch()'><b>launch</b><br>Test class: com.DataProviderbasic.agss3</td>
+<td></td>
+<td>1</td>
+<td>com.DataProviderbasic.agss3@1e04fa0a</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss7.deletecustomer()'><b>deletecustomer</b><br>Test class: com.DataProviderbasic.agss7</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss7@58695725</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss2.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.DataProviderbasic.agss2</td>
+<td></td>
+<td>1</td>
+<td>com.DataProviderbasic.agss2@66d3eec0</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss7.createproject()'><b>createproject</b><br>Test class: com.DataProviderbasic.agss7<br>Parameters: project1</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss7@58695725</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss2.deleteuser()'><b>deleteuser</b><br>Test class: com.DataProviderbasic.agss2</td>
+<td></td>
+<td>2</td>
+<td>com.DataProviderbasic.agss2@66d3eec0</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss1.login()'><b>login</b><br>Test class: com.DataProviderbasic.agss1<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.DataProviderbasic.agss1@5562c41e</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss1.createuser()'><b>createuser</b><br>Test class: com.DataProviderbasic.agss1<br>Parameters: user1, user1, user1@gmail.com, pavan, user1, user1</td>
+<td></td>
+<td>22</td>
+<td>com.DataProviderbasic.agss1@5562c41e</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss1.logout()'><b>logout</b><br>Test class: com.DataProviderbasic.agss1</td>
+<td></td>
+<td>2</td>
+<td>com.DataProviderbasic.agss1@5562c41e</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss7.logout()'><b>logout</b><br>Test class: com.DataProviderbasic.agss7</td>
+<td></td>
+<td>1</td>
+<td>com.DataProviderbasic.agss7@58695725</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss7.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.DataProviderbasic.agss7</td>
+<td></td>
+<td>1</td>
+<td>com.DataProviderbasic.agss7@58695725</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss5.createproject()'><b>createproject</b><br>Test class: com.DataProviderbasic.agss5<br>Parameters: project1</td>
+<td></td>
+<td>4</td>
+<td>com.DataProviderbasic.agss5@18d87d80</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss3.minimizewindow()'><b>minimizewindow</b><br>Test class: com.DataProviderbasic.agss3</td>
+<td></td>
+<td>2</td>
+<td>com.DataProviderbasic.agss3@1e04fa0a</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss1.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.DataProviderbasic.agss1</td>
+<td></td>
+<td>3</td>
+<td>com.DataProviderbasic.agss1@5562c41e</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss7.login()'><b>login</b><br>Test class: com.DataProviderbasic.agss7<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.DataProviderbasic.agss7@58695725</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss7.closeapp()'><b>closeapp</b><br>Test class: com.DataProviderbasic.agss7</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss7@58695725</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss4.minimizewindow()'><b>minimizewindow</b><br>Test class: com.DataProviderbasic.agss4</td>
+<td></td>
+<td>2</td>
+<td>com.DataProviderbasic.agss4@1af2d44a</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss5.navigate()'><b>navigate</b><br>Test class: com.DataProviderbasic.agss5</td>
+<td></td>
+<td>1</td>
+<td>com.DataProviderbasic.agss5@18d87d80</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss3.navigate()'><b>navigate</b><br>Test class: com.DataProviderbasic.agss3</td>
+<td></td>
+<td>4</td>
+<td>com.DataProviderbasic.agss3@1e04fa0a</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss2.closeAplication()'><b>closeAplication</b><br>Test class: com.DataProviderbasic.agss2</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss2@66d3eec0</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss2.logout()'><b>logout</b><br>Test class: com.DataProviderbasic.agss2</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss2@66d3eec0</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss7.modifyproject()'><b>modifyproject</b><br>Test class: com.DataProviderbasic.agss7<br>Parameters: project2</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss7@58695725</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss3.logout()'><b>logout</b><br>Test class: com.DataProviderbasic.agss3</td>
+<td></td>
+<td>2</td>
+<td>com.DataProviderbasic.agss3@1e04fa0a</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss4.deletecustomer()'><b>deletecustomer</b><br>Test class: com.DataProviderbasic.agss4</td>
+<td></td>
+<td>4</td>
+<td>com.DataProviderbasic.agss4@1af2d44a</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss1.Navigate()'><b>Navigate</b><br>Test class: com.DataProviderbasic.agss1</td>
+<td></td>
+<td>5</td>
+<td>com.DataProviderbasic.agss1@5562c41e</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss5.deletecustomer()'><b>deletecustomer</b><br>Test class: com.DataProviderbasic.agss5</td>
+<td></td>
+<td>6</td>
+<td>com.DataProviderbasic.agss5@18d87d80</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss7.navigate()'><b>navigate</b><br>Test class: com.DataProviderbasic.agss7</td>
+<td></td>
+<td>1</td>
+<td>com.DataProviderbasic.agss7@58695725</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss2.modifyuser()'><b>modifyuser</b><br>Test class: com.DataProviderbasic.agss2<br>Parameters: pwd1, pwd1</td>
+<td></td>
+<td>4</td>
+<td>com.DataProviderbasic.agss2@66d3eec0</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss5.minimizewindow()'><b>minimizewindow</b><br>Test class: com.DataProviderbasic.agss5</td>
+<td></td>
+<td>0</td>
+<td>com.DataProviderbasic.agss5@18d87d80</td></tr>
+<tr>
+<td title='com.DataProviderbasic.agss2.Navigate()'><b>Navigate</b><br>Test class: com.DataProviderbasic.agss2</td>
+<td></td>
+<td>1</td>
+<td>com.DataProviderbasic.agss2@66d3eec0</td></tr>
+</table><p>
+</body>
+</html>

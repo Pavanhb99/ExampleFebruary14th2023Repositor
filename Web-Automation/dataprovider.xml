@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="tests">
+	<test name="BasicScenarios">
+		<classes>
+			<class name="com.DataProviderbasic.agss1"></class>
+			<class name="com.DataProviderbasic.agss2"></class>
+			<class name="com.DataProviderbasic.agss3"></class>
+			<class name="com.DataProviderbasic.agss4"></class>
+			<class name="com.DataProviderbasic.agss5"></class>
+			<class name="com.DataProviderbasic.agss6"></class>
+			<class name="com.DataProviderbasic.agss7"></class>
+		</classes>
+	</test>
+</suite>
