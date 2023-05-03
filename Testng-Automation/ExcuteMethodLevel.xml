@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testcase">
+	<test name="user and product">
+		<classes>
+			<class name="users.democlass">
+				<methods>
+				<include name="createUser"></include>
+				</methods>
+			</class>
+			<class name="product.demoproduct">
+				<methods>
+					<exclude name="modifyProduct"></exclude>
+					<exclude name="deleteProduct"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

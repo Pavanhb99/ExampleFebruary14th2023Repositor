@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testcases">
+<test name="users and products">
+<classes>
+<class name="users.democlass"></class>
+<class name="product.demoproduct"></class>
+</classes>
+</test>
+</suite>
